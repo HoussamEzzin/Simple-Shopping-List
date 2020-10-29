@@ -1,0 +1,56 @@
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through 6px;
+}
+
+.shopping-list{
+  display: grid;
+  
+  grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+  
+  grid-gap: 20px;
+}
+
+li{
+  background-color: gray;
+  border: 2px solid black;
+  list-style: none;
+  height: 60px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+ 
+}
+#add-items{
+  text-align: center;
+}
+
+#enter{
+  background-color: cadetblue;
+}
+
+#first{
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  margin-top: 80px;
+}
